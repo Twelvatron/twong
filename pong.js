@@ -109,7 +109,11 @@ function animloop() {
 
 function gameOver() {
     cancelRequestAnimFrame(init);
-    alert('GAME OVER DICKHEAD!');
+    if(confirm('GAME OVER DICKHEAD!!! Again?')){
+    	animloop();
+    } else {
+    	alert('CHICKEN!');	
+    }
 }
 
 function collideAction(ball, p) {
