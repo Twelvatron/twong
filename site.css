@@ -1,0 +1,8 @@
+body {
+  padding: 5px;
+  background-color: #222222;
+}
+
+#canvas {
+  border: white dotted 1px;
+}
